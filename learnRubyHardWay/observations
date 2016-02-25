@@ -1,0 +1,100 @@
+# sign is called as "Octothorpe"
+Outer quotation marks count
+if inequal quotation marks are to be present, then use different ones inside and outside.
+
+Excercise-3:
+
+We can evaluate expression in puts;
+If logical expression is used in puts then it returns true or false
+Use comma to print the text and to print the computed value. Ex: puts "sum of 3 and 4 is" , 3 + 4      
+
+Excercise-4:                
+
+Divsion by floating point gives a floating point result
+#{variable} = holds the value in the variable       Ex:"puts "There are #{cars} cars available" -- prints the value cars variable is holding                                                                        
+
+Excercise: 5
+
+Format Sequences - %d, %s for integer, string
+
+No need of a comma after the use of custom sequence i.e. at the end of puts statement quotes
+if multiple custom sequences are used then use []
+
+The syntax of a format sequence is follows.
+
+%[flags][width][.precision]type
+
+Ex: 
+
+puts "He's got %s eyes and %s hair." % [my_eyes, my_hair]
+puts "His teeth are usually %s depending on the coffee." % my_teeth
+
+
+Excercise 7:
+
+#{} is called sting interpolation.
+
+You can use format sequences or string interpolation to retrieve the values.
+
+
+
+Excercise 8:
+
+You can also use print to output the values
+
+
+Excercise 8:
+
+To print the value of the variable in puts, we can use the variable name with , after the closed quotes
+
+Ex: 
+days = "Mon Tue Wed Thu Fri Sat Sun"
+puts "Here are the days: ", days
+
+New line is \n in puts
+
+<<KEY_WORD marks the start of paragraph and it ends with the KEY_WORD
+
+we can use either newline or paragraph to print lines in multiple lines
+
+
+Excercise 11:
+
+gets = reads input values
+
+
+Excercise 13:
+
+we can use gets and ARGV to read inputs. ARGV is unpacked to the assigned variable
+$0 gives the script name
+
+
+Excercise 14:
+
+If you using multiple user inputs, then we have to use stdin along with gets to support ARGV variables. otherwise, gets will assume stdin first variable as a file and thinks it as a file stream
+
+STDIN.gets.chomp()
+
+Excercise 17:
+
+File.Open(filen_name, 'w') - creates a file
+cat file._name.txt --- prints the text in the file
+FIle.open().read = reads the content (*Read after opening the file)
+
+
+Excercise 18:
+
+ARGV is for script and *args is for functions
+def implies define
+
+Excercise 20:
+ 
+ seek function is used. (To go back to the file stream)
+
+ It seeks ("goes to", "attempts to find") a given position (as integer) in a stream. In your code you define a new method called rewind which takes one argument. When you call it with
+
+
+
+Excercise 21:
+
+Functions do return, no need to specifically mention a return variable in function.
